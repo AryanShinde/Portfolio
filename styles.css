@@ -61,3 +61,14 @@ body{
 .navigation .active{
     font-weight: bolder;
 }
+.hero{
+    padding:2rem;
+
+}
+.hero .hero-img {
+    max-width: 100px;
+    margin:auto;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+}
