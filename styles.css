@@ -3,7 +3,8 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 :root{
-    --primary-color:#6B7280;
+    --primary-color:#9CA3AF;
+    --secondary-color:#30475e;
 }
 .center-container{
   text-align: center;
@@ -42,33 +43,57 @@ body{
 }
 .navigation{
     background-color: var(--primary-color);
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-left-radius: 3rem;
     border-bottom-right-radius: 0.5rem;
-    padding: 1rem;
+    border-top-left-radius: 0rem;
+    padding:0.5rem;
 }
 .nav-link{
     color:white
 }
 .nav-name{
-    max-width: 400px;
-    padding: 2rem 2rem ;
-    font-size: xx-large;
+    max-width: 300px;
+    /* padding: 2rem 2rem ; */
+    margin: auto;
+    font-size: 30px;
+    /* font-size: 0.5in; */
+
 
 }
-/* .nav-name1{
-    font-size:larger;
-} */
+.nav-name1{
+    font-size:x-large;
+}
 .navigation .active{
     font-weight: bolder;
 }
-.hero{
+.head{
     padding:2rem;
+}
+.head img{
+    width:400px;
+    margin:2px 440px
+
+
 
 }
-.hero .hero-img {
-    max-width: 100px;
+/* .head img{
+    display:block;
+    height:300px;
+    width:350px;
     margin:auto;
+} */
+.head .under-img{
+    text-align: center;
+    padding:1rem;
+    color:var(--primary-color);
+    font-weight: 800;
+    font-size: 0.5in;
+
 }
-.hero .hero-heading{
-    padding-top: 1rem;
+.head .nav-name2{
+    text-align: center;
+    padding:1rem;
+    color:var(--secondary-color);
+    font-weight: 800;
+    font-size: 0.5in;
 }
