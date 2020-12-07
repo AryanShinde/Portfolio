@@ -43,10 +43,12 @@ body{
 }
 .navigation{
     background-color: var(--secondary-color);
-    border-bottom-left-radius: 2rem;
+    border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 0.5rem;
-    border-top-left-radius: 0rem;
+    border-top-left-radius: 5rem;
     padding:0.5rem;
+    margin: 2px;
+    display: flex;
 }
 .nav-link{
     color:white
@@ -76,7 +78,7 @@ body{
 .head img{
     display:block;
     height:300px;
-    width:350px;
+    width:500px;
     margin:auto;
 }
 .head .under-img{
@@ -108,9 +110,13 @@ body{
 }
 .footer{
     background-color: #30475e;
+    border-top-right-radius: 2rem;
 }
 .footer .footer-header{
     text-align: center;
+    color: white;
+    padding: 2px;
+    margin-top: 2px;
 }
 .footer img{
     display: inline;
