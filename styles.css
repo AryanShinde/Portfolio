@@ -43,7 +43,7 @@ body{
 }
 .navigation{
     background-color: var(--secondary-color);
-    border-bottom-left-radius: 3rem;
+    border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 0.5rem;
     border-top-left-radius: 0rem;
     padding:0.5rem;
@@ -51,15 +51,12 @@ body{
 .nav-link{
     color:white
 }
-.nav-name{
+/* .nav-name{
     max-width: 300px;
     /* padding: 2rem 2rem ; */
-    margin: auto;
+    /* margin: auto;
     font-size: 30px;
-    /* font-size: 0.5in; */
-
-
-}
+    font-size: 0.5in; */ 
 .nav-name1{
     font-size:x-large;
 }
@@ -85,6 +82,7 @@ body{
 .head .under-img{
     text-align: center;
     padding:1rem;
+    padding-top: 1rem;
     color:var(--primary-color);
     font-weight: 800;
     font-size: 0.5in;
@@ -140,4 +138,9 @@ body{
 }
 .footer ul{
     padding-inline-start:0px;
+}
+.nav-img{
+    border-radius: 10rem;
+    max-width: 100px;
+    margin: 0px 10px;
 }
