@@ -56,7 +56,7 @@ body{
 
 } */
 .navigation {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;}
