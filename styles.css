@@ -44,6 +44,7 @@ body{
     display:inline;
     padding:0.5rem 1rem;
 }
+
 /* .navigation{
     background-color: var(--secondary-color);
     border-bottom-left-radius: 5rem;
@@ -97,28 +98,39 @@ body{
     padding:1rem;
     padding-top: 1rem;
     color:var(--primary-color);
-    font-weight: 800;
-    font-size: 0.5in;
+    font-weight: 600;
+    font-size: 0.3in;
 
 }
 .head .nav-name2{
     text-align: center;
     padding:1rem;
     color:var(--secondary-color);
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 0.3in;
+}
+.head .my-name{
+    text-align: center;
+    padding:1rem;
+    color:var(--secondary-color);
     font-size: 0.5in;
+    /* font-weight: 800; */
 }
 .section{
     text-align: center;
     padding: 1.5rem;
     /* padding-bottom: 3rem; */
-    font-size: 25px;
+    font-size: 20px;
+    margin: auto;
+    width:100%;
 }
 .ow{
     text-align: center;
     scroll-padding-top: 5rem;
     padding-bottom: 2rem;
     background-color:#f0f0f0;
+    margin: auto;
+    width:100%;
 }
 .footer{
     background-color: #30475e;
