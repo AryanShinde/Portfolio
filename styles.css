@@ -44,15 +44,23 @@ body{
     display:inline;
     padding:0.5rem 1rem;
 }
-.navigation{
+/* .navigation{
     background-color: var(--secondary-color);
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 0.5rem;
     border-top-left-radius: 5rem;
-    padding:0.5rem;
-    margin: 2px;
+    padding: 1rem;
+    width: 100%;
     display: flex;
-}
+
+
+} */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;}
+
 .nav-link{
     color:white
 }
@@ -79,10 +87,10 @@ body{
 
 } */
 .head img{
-    display:block;
-    height:300px;
-    width:500px;
-    margin:auto;
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
 }
 .head .under-img{
     text-align: center;
@@ -149,11 +157,12 @@ body{
 .footer ul{
     padding-inline-start:0px;
 }
-.nav-img{
+/* .nav-img{
     border-radius: 10rem;
     max-width: 100px;
-    margin: 0px 10px;
-}
+    margin: 0px 5px;
+    padding: 2rem;
+} */
 .mail{
     color:white
 }
