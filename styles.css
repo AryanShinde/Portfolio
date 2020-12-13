@@ -99,8 +99,8 @@ body{
     background-color: var(--secondary-color);
     color: white;
     padding: 1rem;
-    /* border-bottom-left-radius: 1rem; */
     width: auto;
+    border-bottom-left-radius: 2rem;
 }
 
 .navigation .nav-brand {
@@ -137,10 +137,13 @@ body{
     max-width: 80%;
     width: 350px;
     display: block;
-    margin: auto;
     padding-top: 2rem;
     margin: auto;
+    border: 10rem;
+
 }
+
+
 .head .under-img{
     text-align: center;
     padding:1rem;
@@ -184,7 +187,7 @@ body{
 }
 .footer{
     background-color: #30475e;
-    border-top-right-radius: 2rem;
+    /* border-top-right-radius: 2rem; */
     width:auto;
     margin: auto;
 }
@@ -229,4 +232,7 @@ body{
 } */
 .mail{
     color:white
+}
+ul{
+    padding-inline-start: 40px;
 }
